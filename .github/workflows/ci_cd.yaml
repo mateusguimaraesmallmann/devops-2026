@@ -2,7 +2,8 @@ name: "Exemplo pipeline"
 
 on:
   workflow_dispatch:
-  push: [main]
+  push:
+    branchs: [main]
 
 jobs:
   integracao-continua:
