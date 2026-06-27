@@ -11,7 +11,7 @@ jobs:
         run: echo "Olá, GitHub Actions!"
       - name: Sleep
         run: sleep 1
-      - name:: Outro echo
+      - name: Outro echo
         run: echo "Qualquer coisa"
   estagio02:
     needs: estagio01
