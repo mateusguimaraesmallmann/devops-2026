@@ -3,7 +3,7 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
 
-CAMINHO_BD = "sqlite:////workspaces/devops-2026/banco.db"
+CAMINHO_BD = "sqlite:///banco.db"
 BD = SQLAlchemy()
 APP = Flask(__name__)
 APP.config['SQLALCHEMY_DATABASE_URI'] = CAMINHO_BD
